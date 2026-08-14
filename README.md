@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  Building local-first open-source tools for capturing ideas, reading deeply, and working with AI.<br />
-  为记录、阅读与 AI 协作构建本地优先的开源工具。
+  Building local-first tools for focused thinking, deep reading, and AI-assisted knowledge work.<br />
+  构建服务于专注思考、深度阅读与 AI 辅助知识工作的本地优先工具。
 </p>
 
 <p align="center">
-  <a href="https://github.com/Awaker-OTE/WakeGPT"><strong>WakeGPT</strong></a>
+  <a href="https://github.com/Awaker-OTE/WakeGPT"><strong>WakeGPT — Open Source</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Awaker-OTE/readingspace-mn"><strong>ReadingSpace MN</strong></a>
+  <a href="https://github.com/Awaker-OTE/readingspace-mn"><strong>ReadingSpace MN — Source Available</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Awaker-OTE/WakeGPT/releases">macOS Releases</a>
 </p>
