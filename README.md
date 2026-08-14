@@ -1,10 +1,6 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/Awaker-OTE" width="112" alt="Awaker OTE logo" />
+  <img src="./assets/awaker-ote-profile-banner.svg" width="100%" alt="Awaker OTE — Open-source tools for focused thinking." />
 </p>
-
-<h1 align="center">Awaker OTE</h1>
-
-<p align="center"><strong>Open-source tools for focused thinking.</strong></p>
 
 <p align="center">
   Building local-first software for capturing ideas, reading deeply, and working with AI.<br />
