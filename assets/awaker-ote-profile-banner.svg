@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Awaker OTE</title>
+  <desc id="desc">Open-source tools for focused thinking.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.58" stop-color="#0a1020"/>
+      <stop offset="1" stop-color="#11172b"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.42" stop-color="#cbd3df"/>
+      <stop offset="1" stop-color="#737f92"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="0.55" stop-color="#8b9cff"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#778dff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#778dff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blurred"/>
+      <feMerge>
+        <feMergeNode in="blurred"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1500" height="500" rx="30" fill="url(#background)"/>
+  <rect x="1" y="1" width="1498" height="498" rx="29" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g opacity="0.07" stroke="#cbd5e1" stroke-width="1">
+    <path d="M0 95H1500M0 190H1500M0 285H1500M0 380H1500"/>
+    <path d="M130 0V500M310 0V500M490 0V500M670 0V500M850 0V500M1030 0V500M1210 0V500M1390 0V500"/>
+  </g>
+
+  <ellipse cx="1220" cy="240" rx="360" ry="300" fill="url(#glow)" filter="url(#blur)"/>
+
+  <g fill="none" stroke-linecap="round">
+    <circle cx="1215" cy="250" r="172" stroke="#dbe4f0" stroke-opacity="0.16" stroke-width="1.5"/>
+    <circle cx="1215" cy="250" r="142" stroke="#dbe4f0" stroke-opacity="0.08"/>
+    <path d="M1038 336C1115 188 1268 122 1402 168" stroke="url(#accent)" stroke-opacity="0.38" stroke-width="2"/>
+  </g>
+
+  <g fill="none" stroke="url(#silver)" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+    <path d="M1108 354L1214 137L1324 354" stroke-width="32"/>
+    <path d="M1157 276H1274" stroke-width="28"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <circle cx="1038" cy="336" r="4" fill="#7dd3fc"/>
+    <circle cx="1402" cy="168" r="4" fill="#a78bfa"/>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="110" y="205" fill="url(#silver)" font-size="70" font-weight="700" letter-spacing="7">AWAKER OTE</text>
+    <text x="114" y="262" fill="#e6ebf3" font-size="19" font-weight="550" letter-spacing="1.8">OPEN-SOURCE TOOLS FOR FOCUSED THINKING</text>
+    <rect x="114" y="305" width="555" height="3" rx="1.5" fill="url(#accent)" opacity="0.88"/>
+    <text x="114" y="359" fill="#9faabc" font-size="15.5" font-weight="500" letter-spacing="1.7">LOCAL-FIRST  ·  USER-OWNED  ·  OPEN DEVELOPMENT</text>
+  </g>
+</svg>
