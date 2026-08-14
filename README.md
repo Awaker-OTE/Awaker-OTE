@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/awaker-ote-profile-banner.svg" width="100%" alt="Awaker OTE — Open-source tools for focused thinking." />
+  <img src="./assets/awaker-ote-profile-banner.png" width="100%" alt="Awaker OTE — Open-source tools for focused thinking." />
 </p>
 
 <p align="center">
